@@ -1,0 +1,16 @@
+全局環境準備:
+1.npm cordova-hot-code-push-local-dev-addon
+2.npm cordova-hot-code-push-plugin
+3.npm install -g cordova-fetch-plugins  -取得 fetch.json 的內容
+4.npm install -g cordova-check-plugins  -檢查 fetch.json 的版本
+
+專案依賴安裝:
+1. npm i
+2. fetch-plugins  -取得 fetch.json 的內容
+3. cordova-check-plugins --update=auto -檢查 fetch.json 的版本
+4. cordova platform add <platform>
+
+開發指令:
+1.更新Server: cordova-hcp server
+2.npm run build  - build www 文件夾
+3.cordova emulate android 
