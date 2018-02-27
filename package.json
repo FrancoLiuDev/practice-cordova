@@ -13,6 +13,8 @@
     "license": "Apache-2.0",
     "dependencies": {
         "cordova-android": "^7.0.0",
+        "cordova-hot-code-push-local-dev-addon": "^0.4.2",
+        "cordova-hot-code-push-plugin": "^1.5.3",
         "cordova-plugin-whitelist": "^1.3.3",
         "vue": "^2.5.2",
         "vue-router": "^3.0.1"
