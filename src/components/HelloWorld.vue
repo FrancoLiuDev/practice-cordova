@@ -93,7 +93,7 @@ export default {
     },
     data() {
         return {
-            msg: 'Welcome to my cscsasavava 123',
+            msg: 'Welcome',
             sbtoption: {
                 size: 'small',
                 style: 'solid' //solid hollow
