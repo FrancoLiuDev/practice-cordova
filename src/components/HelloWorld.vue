@@ -2,6 +2,7 @@
   <div class="hello">
     <h1>{{ msg }}</h1>
     <h2>Essential Links</h2>
+	  <StyStateButton tagid='id_bt_cancel' text="取消" class="bt-size" :option="sbtoption" ></StyStateButton>
     <ul>
       <li>
         <a
@@ -84,11 +85,19 @@
 </template>
 
 <script>
+import StyStateButton from '@Components/designs/StyStateButton.vue'
 export default {
     name: 'HelloWorld',
+    components: {
+        StyStateButton
+    },
     data() {
         return {
-            msg: 'Welcome to Franco 123'
+            msg: 'Welcome to my cscsasavava 123',
+            sbtoption: {
+                size: 'small',
+                style: 'solid' //solid hollow
+            }
         }
     }
 }
@@ -96,6 +105,10 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+.bt-size {
+    width: 60px;
+    height: 35px;
+}
 h1,
 h2 {
     font-weight: normal;

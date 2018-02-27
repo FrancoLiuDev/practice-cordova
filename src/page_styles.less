@@ -1,0 +1,136 @@
+@black_transparent: rgba(0, 0, 0, 0.8);
+@page_background: #e3e7ea;
+@fone_size_tiny: 0.4em;
+@fone_size_small: 0.65em;
+@color_menu_hover: #dfeaef;
+@color_menu_active :#a6c3c9;
+
+.main-container {
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  min-height: 100vh;
+  width: 100%;
+  float: center;
+  text-align: center;
+  background-color: @c10_text_button_popup;
+  margin: 0px;
+}
+.base-input-field {
+  border: 1 none;
+  border: 1px solid @c8_can_not_click;
+  background-color: white;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+
+.base-input-field-fc {
+  border: 1px solid;
+  outline: none;
+  border: 1px solid @c1_main_color;
+}
+
+.base-input-field-hold {
+  &:extend(.t002_Login_enter_empty);
+}
+
+.border-outline {
+  border-radius: 2px;
+  border: 1px solid #ddddddaa;
+  overflow: hidden;
+}
+.border-shadow {
+  border-radius: 2px;
+  border-right: 1px solid #dddddd88;
+  border-bottom: 1px solid #dddddd88;
+}
+
+.icon-default {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.avatar-default {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.font-warnning {
+  font-size: @fone_size_pop_ups;
+  color: black;
+  letter-spacing: 2px;
+}
+
+.font-title-normal {
+  font-size: @fone_size_pop_ups;
+  color: black;
+  letter-spacing: 2px;
+}
+
+//positions
+.absolute-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 550px;
+  height: 550px;
+  transform: translate(-50%, -50%);
+}
+
+.tfont-small-tip {
+  font-size: @fone_size_small;
+}
+
+.zindex-under {
+  z-index: 5;
+}
+
+.zindex-mask {
+  z-index: 3;
+}
+
+.zindex-flat {
+  z-index:2;
+}
+
+.zindex-topest {
+  z-index: 20;
+}
+
+.center-h {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.center-v {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.fldtitle-bold-normal {
+  font-size: 0.95;
+  font-weight: bold;
+  color: #222222;
+}
+
+.tb-fldval-normal {
+  font-size: 0.95;
+  color: #222222;
+}

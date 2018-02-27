@@ -1,0 +1,9 @@
+.swcontent .swiper-pagination-bullet-active {
+    opacity: 1;
+    background: #3344ff;
+}
+.swiper-pagination-bullet {
+    height: 12px;
+    width: 12px;
+    border: 2px solid #eeeeee;
+}
