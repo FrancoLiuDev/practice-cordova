@@ -1,8 +1,6 @@
 全局環境準備:
-1.npm cordova-hot-code-push-local-dev-addon
-2.npm cordova-hot-code-push-plugin
-3.npm install -g cordova-fetch-plugins  -取得 fetch.json 的內容
-4.npm install -g cordova-check-plugins  -檢查 fetch.json 的版本
+1.npm install -g cordova-fetch-plugins  -取得 fetch.json 的內容
+2.npm install -g cordova-check-plugins  -檢查 fetch.json 的版本
 
 專案依賴安裝:
 1. npm i
